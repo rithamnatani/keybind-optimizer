@@ -1,0 +1,39 @@
+# Keybind Optimizer - Coding Standards
+
+## Svelte Syntax Rules
+- Always use Svelte 4 syntax (Options API). Never use Runes.
+- DO NOT use Svelte 5 "Runes" ($state, $derived, $effect, $props).
+- Use standard `let` variables for component state.
+- Use `export let` for component props.
+- Use Svelte stores (`writable`, `derived`, `readable`) for shared state.
+
+## TypeScript Rules
+- Use TypeScript interfaces for all data structures.
+- Prefer functional composition over classes.
+- Define explicit types for function parameters and return values.
+- Place interfaces in dedicated type files (e.g., `src/lib/types/`).
+
+## Styling Rules
+- For styling, use DaisyUI utility classes (e.g., btn, card, range, input) first.
+- Then use Tailwind utilities for custom styling.
+- Use DaisyUI theme variables for consistent theming.
+- Avoid inline styles; prefer utility classes.
+
+## State Management
+- Use LocalStorage for persistence via Svelte stores.
+- Create dedicated store files in `src/lib/stores/`.
+- Use `derived` stores for computed values.
+
+## Component Structure
+- Keep components small and focused.
+- Use `+page.svelte` for route pages.
+- Use `+layout.svelte` for shared layouts.
+- Place reusable components in `src/lib/components/`.
+
+## Drag and Drop
+- Use `svelte-dnd-action` for all drag-and-drop functionality.
+- Ensure Svelte 4 compatibility (no Runes).
+
+## AI Integration
+- Use Vercel AI SDK (ai package) v3 for AI features.
+- Use OpenAI SDK v4 for API interactions.
