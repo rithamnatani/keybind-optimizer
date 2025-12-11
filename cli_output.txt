@@ -1,0 +1,52 @@
+=== Keybind Optimizer Demo (WASD) [SA] ===
+
+Top 10 Most Accessible Keys:
+  1. KeyW (score: 0.00, finger: LeftMiddle)
+  2. KeyA (score: 0.00, finger: LeftRing)
+  3. KeyD (score: 0.00, finger: LeftIndex)
+  4. ShiftLeft (score: 0.00, finger: LeftPinky)
+  5. Space (score: 0.00, finger: LeftThumb)
+  6. MouseLeft (score: 0.00, finger: RightIndex)
+  7. MouseRight (score: 0.00, finger: RightMiddle)
+  8. Mouse4 (score: 0.00, finger: RightThumb)
+  9. Mouse5 (score: 0.00, finger: RightThumb)
+  10. KeyQ (score: 4.00, finger: LeftMiddle)
+
+--- Allocation Results ---
+
+SA completed in 30.8ms
+
+  MoveForward     ΓåÆ KeyW           [LeftMiddle] (freq: 100, pri: 0)
+  StrafeLeft      ΓåÆ KeyA           [LeftRing] (freq: 80, pri: 0)
+  StrafeRight     ΓåÆ KeyD           [LeftIndex] (freq: 80, pri: 0)
+  MoveBackward    ΓåÆ KeyS           [LeftRing] (freq: 60, pri: 0)
+  Fire            ΓåÆ MouseRight     [RightMiddle] (freq: 100, pri: 0)
+  Dash            ΓåÆ Mouse4         [RightThumb] (freq: 70, pri: 0)
+  Crouch          ΓåÆ MouseLeft      [RightIndex] (freq: 70, pri: 0)
+  Jump            ΓåÆ Mouse5         [RightThumb] (freq: 60, pri: 0)
+  AltFire         ΓåÆ KeyR           [LeftIndex] (freq: 50, pri: 0)
+  Ping            ΓåÆ MouseMiddle    [RightIndex] (freq: 50, pri: 0)
+  Melee           ΓåÆ Digit4         [LeftMiddle] (freq: 30, pri: 0)
+  Ability1        ΓåÆ KeyT           [LeftIndex] (freq: 30, pri: 0)
+  Reload          ΓåÆ MouseUp        [RightIndex] (freq: 30, pri: 0)
+  Ability2        ΓåÆ KeyE           [LeftMiddle] (freq: 30, pri: 0)
+  Ability3        ΓåÆ Tab            [LeftRing] (freq: 30, pri: 0)
+  Item1           ΓåÆ KeyQ           [LeftMiddle] (freq: 30, pri: 0)
+  Item2           ΓåÆ Digit3         [LeftMiddle] (freq: 30, pri: 0)
+  VoiceChat       ΓåÆ MouseDown      [RightIndex] (freq: 30, pri: 20)
+  Ability4        ΓåÆ Backquote      [LeftRing] (freq: 20, pri: 0)
+  Item3           ΓåÆ Digit2         [LeftMiddle] (freq: 20, pri: 0)
+  Item4           ΓåÆ Digit5         [LeftIndex] (freq: 15, pri: 0)
+  ChatWheel       ΓåÆ KeyY           [LeftIndex] (freq: 15, pri: 0)
+  MeleeParry      ΓåÆ Digit1         [LeftMiddle] (freq: 10, pri: 70)
+  Zipline         ΓåÆ Digit9         [LeftIndex] (freq: 10, pri: 0)
+  AlternateCast   ΓåÆ Digit8         [LeftIndex] (freq: 10, pri: 0)
+  Scoreboard      ΓåÆ Digit6         [LeftIndex] (freq: 10, pri: 0)
+  ChatTeam        ΓåÆ Digit7         [LeftIndex] (freq: 10, pri: 0)
+  CancelAbility   ΓåÆ Minus          [LeftIndex] (freq: 5, pri: 0)
+  OpenShop        ΓåÆ Digit0         [LeftIndex] (freq: 5, pri: 0)
+  ChatAll         ΓåÆ Equal          [LeftIndex] (freq: 5, pri: 0)
+  ExtraInfo       ΓåÆ Backspace      [LeftIndex] (freq: 2, pri: 0)
+
+--- Unassigned Actions ---
+  (none)
